@@ -43,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  position: relative
 }
 
 .title,
@@ -54,6 +55,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  position: relative
 }
 
 .code {
@@ -113,4 +115,7 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.description a{
+margin-right: 25px;
 }
