@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+
 const error404Page = () => {
     const router = useRouter();
     const nevigationHandler = () => {
