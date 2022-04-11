@@ -2,7 +2,6 @@
 const aboutus = () => {
     return (
         <div>
-            <h6>This is an About us page</h6>
             <p>The About Us page of your website is an essential source of information for all who want to know more about your business.
 
                 About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve.
