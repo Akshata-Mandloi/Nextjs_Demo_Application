@@ -1,4 +1,14 @@
 
+// export const getServerSideProps = async () => {
+//     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+//     const data = await response.json();
+//     return {
+//         props: {
+//             data,
+//         }
+//     }
+// };
+
 export const getStaticProps = async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
     const data = await response.json();
@@ -18,8 +28,8 @@ const products = ({ data }) => {
                 <table >
                     <thead>
                         <tr>
-                            <th scope="col" >Id</th>
-                            <th scope="col">Title</th>
+                            <th>Id</th>
+                            <th>Title</th>
                         </tr>
                     </thead>
                     {data.slice(0, 5).map(item => {
